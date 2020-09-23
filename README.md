@@ -1,4 +1,4 @@
-## cookie
+## Cookie Police
 Cookie inspection system for lincode hackathon
 
 
@@ -8,6 +8,9 @@ Cookie inspection system for lincode hackathon
 
 [x] Find the number of chocochips in the cookie
 
-[] Identify any damages
+[x] Identify any damages
 
 [x] Top 3 hex codes of the cookie
+
+
+# We're almost done! Just have to put the code together
