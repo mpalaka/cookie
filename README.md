@@ -1,7 +1,7 @@
 # Task 1
 Cookie inspection system for LinCode hackathon
 
-#### This repository contains the code for performing the followng tasks:
+#### This repository contains the code for performing the following tasks:
 
 * Finding the number of chocolate chips in a cookie
 
