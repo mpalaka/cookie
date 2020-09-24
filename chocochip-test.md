@@ -17,4 +17,7 @@ a value of more than 85 to 255, and all other pixels to 0 (0 is black; 255 is wh
 completely white background.
 
 Now we must simply count the number of black objects. For this subtask, we use [Blob Detection](https://www.learnopencv.com/blob-detection-using-opencv-python-c/). A blob can be 
-described as a group of connected pixels. Using the OpenCV class SimpleBlobDetector,   
+described as a group of connected pixels. Using the OpenCV class SimpleBlobDetector, we can detect blobs of certain properties in our image. For our purposes, we define a blob
+such that it need not be perfectly circular, may be concave(some dough might be covering the chocolate chip), and might be slightly elongated or oval shaped. 
+
+Upon performing blob detection with fine tuned parameters on our image of only chocolate chips, a list of keypoints is returned. This list contains the centers of each of the blobs that are detected. Hence, we return the length of this list to get the number of chocolate chips.
