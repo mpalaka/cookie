@@ -1,16 +1,12 @@
-## Cookie Police
-Cookie inspection system for lincode hackathon
+# Task 1
+Cookie inspection system for LinCode hackathon
 
+#### This repository contains the code for performing the following tasks:
 
-# Tasks:
+* Finding the number of chocolate chips in a cookie
 
-[x] Find the vertical and horizontal diameter of the cookie
+* Measuring the horizontal and vertical diameter of the cookie
 
-[x] Find the number of chocochips in the cookie
+* Identifying if the cookie is damaged
 
-[x] Identify any damages
-
-[x] Top 3 hex codes of the cookie
-
-
-# We're almost done! Just have to put the code together
+* Finding the top 3 hex codes of the cookie (to check if the cookie is burnt)
